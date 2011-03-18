@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'XCode4ReposTests' target in the 'XCode4ReposTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

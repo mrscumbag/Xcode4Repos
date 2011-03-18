@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1132BCF01332E0770014FBE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1132BCEF1332E0770014FBE5 /* UIKit.framework */; };
+		1132BCF21332E0770014FBE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1132BCF11332E0770014FBE5 /* Foundation.framework */; };
+		1132BCF41332E0770014FBE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1132BCF31332E0770014FBE5 /* CoreGraphics.framework */; };
+		1132BCFA1332E0770014FBE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1132BCF81332E0770014FBE5 /* InfoPlist.strings */; };
+		1132BCFD1332E0770014FBE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1132BCFC1332E0770014FBE5 /* main.m */; };
+		1132BD001332E0770014FBE5 /* XCode4ReposAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1132BCFF1332E0770014FBE5 /* XCode4ReposAppDelegate.m */; };
+		1132BD031332E0770014FBE5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1132BD011332E0770014FBE5 /* MainWindow.xib */; };
+		1132BD061332E0770014FBE5 /* XCode4ReposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1132BD051332E0770014FBE5 /* XCode4ReposViewController.m */; };
+		1132BD091332E0770014FBE5 /* XCode4ReposViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1132BD071332E0770014FBE5 /* XCode4ReposViewController.xib */; };
+		1132BD101332E0780014FBE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1132BCEF1332E0770014FBE5 /* UIKit.framework */; };
+		1132BD111332E0780014FBE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1132BCF11332E0770014FBE5 /* Foundation.framework */; };
+		1132BD121332E0780014FBE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1132BCF31332E0770014FBE5 /* CoreGraphics.framework */; };
+		1132BD1A1332E0780014FBE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1132BD181332E0780014FBE5 /* InfoPlist.strings */; };
+		1132BD1D1332E0780014FBE5 /* XCode4ReposTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1132BD1C1332E0780014FBE5 /* XCode4ReposTests.h */; };
+		1132BD1F1332E0780014FBE5 /* XCode4ReposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1132BD1E1332E0780014FBE5 /* XCode4ReposTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1132BD131332E0780014FBE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1132BCE21332E0770014FBE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1132BCEA1332E0770014FBE5;
+			remoteInfo = XCode4Repos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1132BCEB1332E0770014FBE5 /* XCode4Repos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCode4Repos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1132BCEF1332E0770014FBE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1132BCF11332E0770014FBE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1132BCF31332E0770014FBE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1132BCF71332E0770014FBE5 /* XCode4Repos-Info.plist */ = {isa = PBXFileReference; path = "XCode4Repos-Info.plist"; sourceTree = "<group>"; };
+		1132BCF91332E0770014FBE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1132BCFB1332E0770014FBE5 /* XCode4Repos-Prefix.pch */ = {isa = PBXFileReference; path = "XCode4Repos-Prefix.pch"; sourceTree = "<group>"; };
+		1132BCFC1332E0770014FBE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1132BCFE1332E0770014FBE5 /* XCode4ReposAppDelegate.h */ = {isa = PBXFileReference; path = XCode4ReposAppDelegate.h; sourceTree = "<group>"; };
+		1132BCFF1332E0770014FBE5 /* XCode4ReposAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCode4ReposAppDelegate.m; sourceTree = "<group>"; };
+		1132BD021332E0770014FBE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1132BD041332E0770014FBE5 /* XCode4ReposViewController.h */ = {isa = PBXFileReference; path = XCode4ReposViewController.h; sourceTree = "<group>"; };
+		1132BD051332E0770014FBE5 /* XCode4ReposViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCode4ReposViewController.m; sourceTree = "<group>"; };
+		1132BD081332E0770014FBE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XCode4ReposViewController.xib; sourceTree = "<group>"; };
+		1132BD0F1332E0780014FBE5 /* XCode4ReposTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCode4ReposTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1132BD171332E0780014FBE5 /* XCode4ReposTests-Info.plist */ = {isa = PBXFileReference; path = "XCode4ReposTests-Info.plist"; sourceTree = "<group>"; };
+		1132BD191332E0780014FBE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1132BD1B1332E0780014FBE5 /* XCode4ReposTests-Prefix.pch */ = {isa = PBXFileReference; path = "XCode4ReposTests-Prefix.pch"; sourceTree = "<group>"; };
+		1132BD1C1332E0780014FBE5 /* XCode4ReposTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCode4ReposTests.h; sourceTree = "<group>"; };
+		1132BD1E1332E0780014FBE5 /* XCode4ReposTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCode4ReposTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1132BCE81332E0770014FBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1132BCF01332E0770014FBE5 /* UIKit.framework in Frameworks */,
+				1132BCF21332E0770014FBE5 /* Foundation.framework in Frameworks */,
+				1132BCF41332E0770014FBE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1132BD0B1332E0780014FBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1132BD101332E0780014FBE5 /* UIKit.framework in Frameworks */,
+				1132BD111332E0780014FBE5 /* Foundation.framework in Frameworks */,
+				1132BD121332E0780014FBE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1132BCE01332E0770014FBE5 = {
+			isa = PBXGroup;
+			children = (
+				1132BCF51332E0770014FBE5 /* XCode4Repos */,
+				1132BD151332E0780014FBE5 /* XCode4ReposTests */,
+				1132BCEE1332E0770014FBE5 /* Frameworks */,
+				1132BCEC1332E0770014FBE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1132BCEC1332E0770014FBE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1132BCEB1332E0770014FBE5 /* XCode4Repos.app */,
+				1132BD0F1332E0780014FBE5 /* XCode4ReposTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1132BCEE1332E0770014FBE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1132BCEF1332E0770014FBE5 /* UIKit.framework */,
+				1132BCF11332E0770014FBE5 /* Foundation.framework */,
+				1132BCF31332E0770014FBE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1132BCF51332E0770014FBE5 /* XCode4Repos */ = {
+			isa = PBXGroup;
+			children = (
+				1132BCFE1332E0770014FBE5 /* XCode4ReposAppDelegate.h */,
+				1132BCFF1332E0770014FBE5 /* XCode4ReposAppDelegate.m */,
+				1132BD011332E0770014FBE5 /* MainWindow.xib */,
+				1132BD041332E0770014FBE5 /* XCode4ReposViewController.h */,
+				1132BD051332E0770014FBE5 /* XCode4ReposViewController.m */,
+				1132BD071332E0770014FBE5 /* XCode4ReposViewController.xib */,
+				1132BCF61332E0770014FBE5 /* Supporting Files */,
+			);
+			path = XCode4Repos;
+			sourceTree = "<group>";
+		};
+		1132BCF61332E0770014FBE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1132BCF71332E0770014FBE5 /* XCode4Repos-Info.plist */,
+				1132BCF81332E0770014FBE5 /* InfoPlist.strings */,
+				1132BCFB1332E0770014FBE5 /* XCode4Repos-Prefix.pch */,
+				1132BCFC1332E0770014FBE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1132BD151332E0780014FBE5 /* XCode4ReposTests */ = {
+			isa = PBXGroup;
+			children = (
+				1132BD1C1332E0780014FBE5 /* XCode4ReposTests.h */,
+				1132BD1E1332E0780014FBE5 /* XCode4ReposTests.m */,
+				1132BD161332E0780014FBE5 /* Supporting Files */,
+			);
+			path = XCode4ReposTests;
+			sourceTree = "<group>";
+		};
+		1132BD161332E0780014FBE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1132BD171332E0780014FBE5 /* XCode4ReposTests-Info.plist */,
+				1132BD181332E0780014FBE5 /* InfoPlist.strings */,
+				1132BD1B1332E0780014FBE5 /* XCode4ReposTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1132BCEA1332E0770014FBE5 /* XCode4Repos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1132BD221332E0780014FBE5 /* Build configuration list for PBXNativeTarget "XCode4Repos" */;
+			buildPhases = (
+				1132BCE71332E0770014FBE5 /* Sources */,
+				1132BCE81332E0770014FBE5 /* Frameworks */,
+				1132BCE91332E0770014FBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCode4Repos;
+			productName = XCode4Repos;
+			productReference = 1132BCEB1332E0770014FBE5 /* XCode4Repos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1132BD0E1332E0780014FBE5 /* XCode4ReposTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1132BD251332E0780014FBE5 /* Build configuration list for PBXNativeTarget "XCode4ReposTests" */;
+			buildPhases = (
+				1132BD0A1332E0780014FBE5 /* Sources */,
+				1132BD0B1332E0780014FBE5 /* Frameworks */,
+				1132BD0C1332E0780014FBE5 /* Resources */,
+				1132BD0D1332E0780014FBE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1132BD141332E0780014FBE5 /* PBXTargetDependency */,
+			);
+			name = XCode4ReposTests;
+			productName = XCode4ReposTests;
+			productReference = 1132BD0F1332E0780014FBE5 /* XCode4ReposTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1132BCE21332E0770014FBE5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1132BCE51332E0770014FBE5 /* Build configuration list for PBXProject "XCode4Repos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1132BCE01332E0770014FBE5;
+			productRefGroup = 1132BCEC1332E0770014FBE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1132BCEA1332E0770014FBE5 /* XCode4Repos */,
+				1132BD0E1332E0780014FBE5 /* XCode4ReposTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1132BCE91332E0770014FBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1132BCFA1332E0770014FBE5 /* InfoPlist.strings in Resources */,
+				1132BD031332E0770014FBE5 /* MainWindow.xib in Resources */,
+				1132BD091332E0770014FBE5 /* XCode4ReposViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1132BD0C1332E0780014FBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1132BD1A1332E0780014FBE5 /* InfoPlist.strings in Resources */,
+				1132BD1D1332E0780014FBE5 /* XCode4ReposTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1132BD0D1332E0780014FBE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1132BCE71332E0770014FBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1132BCFD1332E0770014FBE5 /* main.m in Sources */,
+				1132BD001332E0770014FBE5 /* XCode4ReposAppDelegate.m in Sources */,
+				1132BD061332E0770014FBE5 /* XCode4ReposViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1132BD0A1332E0780014FBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1132BD1F1332E0780014FBE5 /* XCode4ReposTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1132BD141332E0780014FBE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1132BCEA1332E0770014FBE5 /* XCode4Repos */;
+			targetProxy = 1132BD131332E0780014FBE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1132BCF81332E0770014FBE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1132BCF91332E0770014FBE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1132BD011332E0770014FBE5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1132BD021332E0770014FBE5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1132BD071332E0770014FBE5 /* XCode4ReposViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1132BD081332E0770014FBE5 /* en */,
+			);
+			name = XCode4ReposViewController.xib;
+			sourceTree = "<group>";
+		};
+		1132BD181332E0780014FBE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1132BD191332E0780014FBE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1132BD201332E0780014FBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1132BD211332E0780014FBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1132BD231332E0780014FBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode4Repos/XCode4Repos-Prefix.pch";
+				INFOPLIST_FILE = "XCode4Repos/XCode4Repos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1132BD241332E0780014FBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode4Repos/XCode4Repos-Prefix.pch";
+				INFOPLIST_FILE = "XCode4Repos/XCode4Repos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1132BD261332E0780014FBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XCode4Repos.app/XCode4Repos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode4ReposTests/XCode4ReposTests-Prefix.pch";
+				INFOPLIST_FILE = "XCode4ReposTests/XCode4ReposTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1132BD271332E0780014FBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XCode4Repos.app/XCode4Repos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode4ReposTests/XCode4ReposTests-Prefix.pch";
+				INFOPLIST_FILE = "XCode4ReposTests/XCode4ReposTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1132BCE51332E0770014FBE5 /* Build configuration list for PBXProject "XCode4Repos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1132BD201332E0780014FBE5 /* Debug */,
+				1132BD211332E0780014FBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1132BD221332E0780014FBE5 /* Build configuration list for PBXNativeTarget "XCode4Repos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1132BD231332E0780014FBE5 /* Debug */,
+				1132BD241332E0780014FBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1132BD251332E0780014FBE5 /* Build configuration list for PBXNativeTarget "XCode4ReposTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1132BD261332E0780014FBE5 /* Debug */,
+				1132BD271332E0780014FBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1132BCE21332E0770014FBE5 /* Project object */;
+}
