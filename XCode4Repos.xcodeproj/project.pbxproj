@@ -39,20 +39,20 @@
 		1132BCEF1332E0770014FBE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1132BCF11332E0770014FBE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1132BCF31332E0770014FBE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1132BCF71332E0770014FBE5 /* XCode4Repos-Info.plist */ = {isa = PBXFileReference; path = "XCode4Repos-Info.plist"; sourceTree = "<group>"; };
+		1132BCF71332E0770014FBE5 /* XCode4Repos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XCode4Repos-Info.plist"; sourceTree = "<group>"; };
 		1132BCF91332E0770014FBE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1132BCFB1332E0770014FBE5 /* XCode4Repos-Prefix.pch */ = {isa = PBXFileReference; path = "XCode4Repos-Prefix.pch"; sourceTree = "<group>"; };
+		1132BCFB1332E0770014FBE5 /* XCode4Repos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCode4Repos-Prefix.pch"; sourceTree = "<group>"; };
 		1132BCFC1332E0770014FBE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1132BCFE1332E0770014FBE5 /* XCode4ReposAppDelegate.h */ = {isa = PBXFileReference; path = XCode4ReposAppDelegate.h; sourceTree = "<group>"; };
+		1132BCFE1332E0770014FBE5 /* XCode4ReposAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCode4ReposAppDelegate.h; sourceTree = "<group>"; };
 		1132BCFF1332E0770014FBE5 /* XCode4ReposAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCode4ReposAppDelegate.m; sourceTree = "<group>"; };
 		1132BD021332E0770014FBE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		1132BD041332E0770014FBE5 /* XCode4ReposViewController.h */ = {isa = PBXFileReference; path = XCode4ReposViewController.h; sourceTree = "<group>"; };
+		1132BD041332E0770014FBE5 /* XCode4ReposViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCode4ReposViewController.h; sourceTree = "<group>"; };
 		1132BD051332E0770014FBE5 /* XCode4ReposViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCode4ReposViewController.m; sourceTree = "<group>"; };
 		1132BD081332E0770014FBE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XCode4ReposViewController.xib; sourceTree = "<group>"; };
 		1132BD0F1332E0780014FBE5 /* XCode4ReposTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCode4ReposTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1132BD171332E0780014FBE5 /* XCode4ReposTests-Info.plist */ = {isa = PBXFileReference; path = "XCode4ReposTests-Info.plist"; sourceTree = "<group>"; };
+		1132BD171332E0780014FBE5 /* XCode4ReposTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XCode4ReposTests-Info.plist"; sourceTree = "<group>"; };
 		1132BD191332E0780014FBE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1132BD1B1332E0780014FBE5 /* XCode4ReposTests-Prefix.pch */ = {isa = PBXFileReference; path = "XCode4ReposTests-Prefix.pch"; sourceTree = "<group>"; };
+		1132BD1B1332E0780014FBE5 /* XCode4ReposTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCode4ReposTests-Prefix.pch"; sourceTree = "<group>"; };
 		1132BD1C1332E0780014FBE5 /* XCode4ReposTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCode4ReposTests.h; sourceTree = "<group>"; };
 		1132BD1E1332E0780014FBE5 /* XCode4ReposTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCode4ReposTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
